@@ -1,0 +1,11 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/mediashear.html" }]
+}
+```
+
+Then your repo should look like:
+```
+your-repo/
+├── mediashear.html
+├── vercel.json
+└── README.md
